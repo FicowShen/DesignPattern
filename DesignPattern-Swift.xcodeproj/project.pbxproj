@@ -22,6 +22,10 @@
 		6AC6CECA235206D700A1166A /* PhoneFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC6CEC9235206D700A1166A /* PhoneFactory.swift */; };
 		6AC6CECC2352076000A1166A /* PhoneShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC6CECB2352076000A1166A /* PhoneShopTests.swift */; };
 		6AC6CECE235207F600A1166A /* PhoneShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC6CECD235207F600A1166A /* PhoneShop.swift */; };
+		6AC6CED423521F2700A1166A /* MazeBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC6CED323521F2700A1166A /* MazeBuilder.swift */; };
+		6AC6CED62352213E00A1166A /* MazeBuiltFromBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC6CED52352213E00A1166A /* MazeBuiltFromBuilder.swift */; };
+		6AC6CED82352216400A1166A /* StandardMazeBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC6CED72352216400A1166A /* StandardMazeBuilder.swift */; };
+		6AC6CEDA2352240400A1166A /* StandardMazeBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC6CED92352240400A1166A /* StandardMazeBuilderTests.swift */; };
 		89719708233E0514007E6EDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89719707233E0514007E6EDF /* AppDelegate.swift */; };
 		8971970A233E0514007E6EDF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89719709233E0514007E6EDF /* SceneDelegate.swift */; };
 		8971970C233E0514007E6EDF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8971970B233E0514007E6EDF /* ContentView.swift */; };
@@ -65,6 +69,10 @@
 		6AC6CEC9235206D700A1166A /* PhoneFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneFactory.swift; sourceTree = "<group>"; };
 		6AC6CECB2352076000A1166A /* PhoneShopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneShopTests.swift; sourceTree = "<group>"; };
 		6AC6CECD235207F600A1166A /* PhoneShop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneShop.swift; sourceTree = "<group>"; };
+		6AC6CED323521F2700A1166A /* MazeBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MazeBuilder.swift; sourceTree = "<group>"; };
+		6AC6CED52352213E00A1166A /* MazeBuiltFromBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MazeBuiltFromBuilder.swift; sourceTree = "<group>"; };
+		6AC6CED72352216400A1166A /* StandardMazeBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardMazeBuilder.swift; sourceTree = "<group>"; };
+		6AC6CED92352240400A1166A /* StandardMazeBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardMazeBuilderTests.swift; sourceTree = "<group>"; };
 		89719704233E0514007E6EDF /* DesignPattern-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DesignPattern-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		89719707233E0514007E6EDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89719709233E0514007E6EDF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -110,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				6AC6CECF235208CF00A1166A /* AbstractFactory */,
+				6AC6CED02352180100A1166A /* Builder */,
 			);
 			path = Creational;
 			sourceTree = "<group>";
@@ -160,6 +169,33 @@
 			path = AbstractFactory;
 			sourceTree = "<group>";
 		};
+		6AC6CED02352180100A1166A /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				6AC6CED223521EEA00A1166A /* MyDemo */,
+				6AC6CED123521EE400A1166A /* BookDemo */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		6AC6CED123521EE400A1166A /* BookDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6AC6CED323521F2700A1166A /* MazeBuilder.swift */,
+				6AC6CED52352213E00A1166A /* MazeBuiltFromBuilder.swift */,
+				6AC6CED72352216400A1166A /* StandardMazeBuilder.swift */,
+				6AC6CED92352240400A1166A /* StandardMazeBuilderTests.swift */,
+			);
+			path = BookDemo;
+			sourceTree = "<group>";
+		};
+		6AC6CED223521EEA00A1166A /* MyDemo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MyDemo;
+			sourceTree = "<group>";
+		};
 		897196FB233E0514007E6EDF = {
 			isa = PBXGroup;
 			children = (
@@ -206,8 +242,8 @@
 			isa = PBXGroup;
 			children = (
 				6A9AA4B12351FA5000BB4DBB /* Creational */,
-				8971971E233E0516007E6EDF /* DesignPattern_SwiftTests.swift */,
 				89719720233E0516007E6EDF /* Info.plist */,
+				8971971E233E0516007E6EDF /* DesignPattern_SwiftTests.swift */,
 			);
 			path = "DesignPattern-SwiftTests";
 			sourceTree = "<group>";
@@ -365,17 +401,21 @@
 				6A9AA4B42351FA6B00BB4DBB /* MapSite.swift in Sources */,
 				6AC6CECA235206D700A1166A /* PhoneFactory.swift in Sources */,
 				6AC6CEC1235201A300A1166A /* EnchantedFactoryTests.swift in Sources */,
+				6AC6CED82352216400A1166A /* StandardMazeBuilder.swift in Sources */,
 				6AC6CEC62352038800A1166A /* NokiaPhone.swift in Sources */,
 				6A9AA4BA2351FA8100BB4DBB /* Door.swift in Sources */,
 				6AC6CEBF2352009700A1166A /* EnchantedMazeFactory.swift in Sources */,
 				6A9AA4B02351F9F700BB4DBB /* AbstractFactory.swift in Sources */,
+				6AC6CED62352213E00A1166A /* MazeBuiltFromBuilder.swift in Sources */,
 				6A9AA4BE2351FB3D00BB4DBB /* Direction.swift in Sources */,
 				6AC6CECC2352076000A1166A /* PhoneShopTests.swift in Sources */,
 				6A9AA4B82351FA7A00BB4DBB /* Wall.swift in Sources */,
 				6A9AA4B62351FA7300BB4DBB /* Room.swift in Sources */,
+				6AC6CEDA2352240400A1166A /* StandardMazeBuilderTests.swift in Sources */,
 				8971971F233E0516007E6EDF /* DesignPattern_SwiftTests.swift in Sources */,
 				6A9AA4BC2351FA8E00BB4DBB /* Maze.swift in Sources */,
 				6AC6CEC4235202C100A1166A /* Phone.swift in Sources */,
+				6AC6CED423521F2700A1166A /* MazeBuilder.swift in Sources */,
 				6AC6CECE235207F600A1166A /* PhoneShop.swift in Sources */,
 				6AC6CEC82352069D00A1166A /* iPhone.swift in Sources */,
 			);
