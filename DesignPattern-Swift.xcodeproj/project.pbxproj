@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A9AA4B02351F9F700BB4DBB /* AbstractFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9AA4AF2351F9F700BB4DBB /* AbstractFactory.swift */; };
+		6A9AA4B42351FA6B00BB4DBB /* MapSite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9AA4B32351FA6B00BB4DBB /* MapSite.swift */; };
+		6A9AA4B62351FA7300BB4DBB /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9AA4B52351FA7300BB4DBB /* Room.swift */; };
+		6A9AA4B82351FA7A00BB4DBB /* Wall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9AA4B72351FA7A00BB4DBB /* Wall.swift */; };
+		6A9AA4BA2351FA8100BB4DBB /* Door.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9AA4B92351FA8100BB4DBB /* Door.swift */; };
+		6A9AA4BC2351FA8E00BB4DBB /* Maze.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9AA4BB2351FA8E00BB4DBB /* Maze.swift */; };
+		6A9AA4BE2351FB3D00BB4DBB /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9AA4BD2351FB3D00BB4DBB /* Direction.swift */; };
+		6AC6CEBF2352009700A1166A /* EnchantedMazeFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC6CEBE2352009700A1166A /* EnchantedMazeFactory.swift */; };
+		6AC6CEC1235201A300A1166A /* EnchantedFactoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC6CEC0235201A300A1166A /* EnchantedFactoryTests.swift */; };
+		6AC6CEC4235202C100A1166A /* Phone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC6CEC3235202C100A1166A /* Phone.swift */; };
+		6AC6CEC62352038800A1166A /* NokiaPhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC6CEC52352038800A1166A /* NokiaPhone.swift */; };
+		6AC6CEC82352069D00A1166A /* iPhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC6CEC72352069D00A1166A /* iPhone.swift */; };
+		6AC6CECA235206D700A1166A /* PhoneFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC6CEC9235206D700A1166A /* PhoneFactory.swift */; };
+		6AC6CECC2352076000A1166A /* PhoneShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC6CECB2352076000A1166A /* PhoneShopTests.swift */; };
+		6AC6CECE235207F600A1166A /* PhoneShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC6CECD235207F600A1166A /* PhoneShop.swift */; };
 		89719708233E0514007E6EDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89719707233E0514007E6EDF /* AppDelegate.swift */; };
 		8971970A233E0514007E6EDF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89719709233E0514007E6EDF /* SceneDelegate.swift */; };
 		8971970C233E0514007E6EDF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8971970B233E0514007E6EDF /* ContentView.swift */; };
@@ -35,6 +50,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6A9AA4AF2351F9F700BB4DBB /* AbstractFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactory.swift; sourceTree = "<group>"; };
+		6A9AA4B32351FA6B00BB4DBB /* MapSite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapSite.swift; sourceTree = "<group>"; };
+		6A9AA4B52351FA7300BB4DBB /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		6A9AA4B72351FA7A00BB4DBB /* Wall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wall.swift; sourceTree = "<group>"; };
+		6A9AA4B92351FA8100BB4DBB /* Door.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Door.swift; sourceTree = "<group>"; };
+		6A9AA4BB2351FA8E00BB4DBB /* Maze.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maze.swift; sourceTree = "<group>"; };
+		6A9AA4BD2351FB3D00BB4DBB /* Direction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Direction.swift; sourceTree = "<group>"; };
+		6AC6CEBE2352009700A1166A /* EnchantedMazeFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnchantedMazeFactory.swift; sourceTree = "<group>"; };
+		6AC6CEC0235201A300A1166A /* EnchantedFactoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnchantedFactoryTests.swift; sourceTree = "<group>"; };
+		6AC6CEC3235202C100A1166A /* Phone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phone.swift; sourceTree = "<group>"; };
+		6AC6CEC52352038800A1166A /* NokiaPhone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NokiaPhone.swift; sourceTree = "<group>"; };
+		6AC6CEC72352069D00A1166A /* iPhone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPhone.swift; sourceTree = "<group>"; };
+		6AC6CEC9235206D700A1166A /* PhoneFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneFactory.swift; sourceTree = "<group>"; };
+		6AC6CECB2352076000A1166A /* PhoneShopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneShopTests.swift; sourceTree = "<group>"; };
+		6AC6CECD235207F600A1166A /* PhoneShop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneShop.swift; sourceTree = "<group>"; };
 		89719704233E0514007E6EDF /* DesignPattern-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DesignPattern-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		89719707233E0514007E6EDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89719709233E0514007E6EDF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +106,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6A9AA4B12351FA5000BB4DBB /* Creational */ = {
+			isa = PBXGroup;
+			children = (
+				6AC6CECF235208CF00A1166A /* AbstractFactory */,
+			);
+			path = Creational;
+			sourceTree = "<group>";
+		};
+		6A9AA4B22351FA5A00BB4DBB /* AbstractFactory */ = {
+			isa = PBXGroup;
+			children = (
+				6A9AA4AF2351F9F700BB4DBB /* AbstractFactory.swift */,
+				6AC6CEBE2352009700A1166A /* EnchantedMazeFactory.swift */,
+			);
+			path = AbstractFactory;
+			sourceTree = "<group>";
+		};
+		6A9AA4BF2351FD9100BB4DBB /* BookDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6A9AA4B22351FA5A00BB4DBB /* AbstractFactory */,
+				6A9AA4BD2351FB3D00BB4DBB /* Direction.swift */,
+				6A9AA4B32351FA6B00BB4DBB /* MapSite.swift */,
+				6A9AA4B52351FA7300BB4DBB /* Room.swift */,
+				6A9AA4B72351FA7A00BB4DBB /* Wall.swift */,
+				6A9AA4B92351FA8100BB4DBB /* Door.swift */,
+				6A9AA4BB2351FA8E00BB4DBB /* Maze.swift */,
+				6AC6CEC0235201A300A1166A /* EnchantedFactoryTests.swift */,
+			);
+			path = BookDemo;
+			sourceTree = "<group>";
+		};
+		6AC6CEC2235202A800A1166A /* MyDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6AC6CEC3235202C100A1166A /* Phone.swift */,
+				6AC6CEC52352038800A1166A /* NokiaPhone.swift */,
+				6AC6CEC72352069D00A1166A /* iPhone.swift */,
+				6AC6CEC9235206D700A1166A /* PhoneFactory.swift */,
+				6AC6CECD235207F600A1166A /* PhoneShop.swift */,
+				6AC6CECB2352076000A1166A /* PhoneShopTests.swift */,
+			);
+			path = MyDemo;
+			sourceTree = "<group>";
+		};
+		6AC6CECF235208CF00A1166A /* AbstractFactory */ = {
+			isa = PBXGroup;
+			children = (
+				6AC6CEC2235202A800A1166A /* MyDemo */,
+				6A9AA4BF2351FD9100BB4DBB /* BookDemo */,
+			);
+			path = AbstractFactory;
+			sourceTree = "<group>";
+		};
 		897196FB233E0514007E6EDF = {
 			isa = PBXGroup;
 			children = (
@@ -121,6 +205,7 @@
 		8971971D233E0516007E6EDF /* DesignPattern-SwiftTests */ = {
 			isa = PBXGroup;
 			children = (
+				6A9AA4B12351FA5000BB4DBB /* Creational */,
 				8971971E233E0516007E6EDF /* DesignPattern_SwiftTests.swift */,
 				89719720233E0516007E6EDF /* Info.plist */,
 			);
@@ -277,7 +362,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A9AA4B42351FA6B00BB4DBB /* MapSite.swift in Sources */,
+				6AC6CECA235206D700A1166A /* PhoneFactory.swift in Sources */,
+				6AC6CEC1235201A300A1166A /* EnchantedFactoryTests.swift in Sources */,
+				6AC6CEC62352038800A1166A /* NokiaPhone.swift in Sources */,
+				6A9AA4BA2351FA8100BB4DBB /* Door.swift in Sources */,
+				6AC6CEBF2352009700A1166A /* EnchantedMazeFactory.swift in Sources */,
+				6A9AA4B02351F9F700BB4DBB /* AbstractFactory.swift in Sources */,
+				6A9AA4BE2351FB3D00BB4DBB /* Direction.swift in Sources */,
+				6AC6CECC2352076000A1166A /* PhoneShopTests.swift in Sources */,
+				6A9AA4B82351FA7A00BB4DBB /* Wall.swift in Sources */,
+				6A9AA4B62351FA7300BB4DBB /* Room.swift in Sources */,
 				8971971F233E0516007E6EDF /* DesignPattern_SwiftTests.swift in Sources */,
+				6A9AA4BC2351FA8E00BB4DBB /* Maze.swift in Sources */,
+				6AC6CEC4235202C100A1166A /* Phone.swift in Sources */,
+				6AC6CECE235207F600A1166A /* PhoneShop.swift in Sources */,
+				6AC6CEC82352069D00A1166A /* iPhone.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
