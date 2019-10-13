@@ -35,6 +35,9 @@
 		6AC6CEEB2353030100A1166A /* MazeGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC6CEEA2353030100A1166A /* MazeGame.swift */; };
 		6AC6CEED23535F4F00A1166A /* BombedMazeGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC6CEEC23535F4F00A1166A /* BombedMazeGame.swift */; };
 		6AC6CEEF23535FE700A1166A /* BombedMazeGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC6CEEE23535FE700A1166A /* BombedMazeGameTests.swift */; };
+		6AC6CEF123536F6400A1166A /* BookMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC6CEF023536F6400A1166A /* BookMaker.swift */; };
+		6AC6CEF3235370D400A1166A /* MegazineMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC6CEF2235370D400A1166A /* MegazineMaker.swift */; };
+		6AC6CEF5235372D800A1166A /* MegazineMakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC6CEF4235372D800A1166A /* MegazineMakerTests.swift */; };
 		89719708233E0514007E6EDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89719707233E0514007E6EDF /* AppDelegate.swift */; };
 		8971970A233E0514007E6EDF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89719709233E0514007E6EDF /* SceneDelegate.swift */; };
 		8971970C233E0514007E6EDF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8971970B233E0514007E6EDF /* ContentView.swift */; };
@@ -91,6 +94,9 @@
 		6AC6CEEA2353030100A1166A /* MazeGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MazeGame.swift; sourceTree = "<group>"; };
 		6AC6CEEC23535F4F00A1166A /* BombedMazeGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BombedMazeGame.swift; sourceTree = "<group>"; };
 		6AC6CEEE23535FE700A1166A /* BombedMazeGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BombedMazeGameTests.swift; sourceTree = "<group>"; };
+		6AC6CEF023536F6400A1166A /* BookMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookMaker.swift; sourceTree = "<group>"; };
+		6AC6CEF2235370D400A1166A /* MegazineMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MegazineMaker.swift; sourceTree = "<group>"; };
+		6AC6CEF4235372D800A1166A /* MegazineMakerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MegazineMakerTests.swift; sourceTree = "<group>"; };
 		89719704233E0514007E6EDF /* DesignPattern-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DesignPattern-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		89719707233E0514007E6EDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89719709233E0514007E6EDF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -243,6 +249,9 @@
 		6AC6CEE9235302EE00A1166A /* MyDemo */ = {
 			isa = PBXGroup;
 			children = (
+				6AC6CEF023536F6400A1166A /* BookMaker.swift */,
+				6AC6CEF2235370D400A1166A /* MegazineMaker.swift */,
+				6AC6CEF4235372D800A1166A /* MegazineMakerTests.swift */,
 			);
 			path = MyDemo;
 			sourceTree = "<group>";
@@ -455,6 +464,7 @@
 				6AC6CEC1235201A300A1166A /* EnchantedFactoryTests.swift in Sources */,
 				6AC6CED82352216400A1166A /* StandardMazeBuilder.swift in Sources */,
 				6AC6CEEB2353030100A1166A /* MazeGame.swift in Sources */,
+				6AC6CEF5235372D800A1166A /* MegazineMakerTests.swift in Sources */,
 				6AC6CEC62352038800A1166A /* NokiaPhone.swift in Sources */,
 				6A9AA4BA2351FA8100BB4DBB /* Door.swift in Sources */,
 				6AC6CEBF2352009700A1166A /* EnchantedMazeFactory.swift in Sources */,
@@ -466,6 +476,7 @@
 				6A9AA4B82351FA7A00BB4DBB /* Wall.swift in Sources */,
 				6AC6CEE22352EAF500A1166A /* Car.swift in Sources */,
 				6A9AA4B62351FA7300BB4DBB /* Room.swift in Sources */,
+				6AC6CEF3235370D400A1166A /* MegazineMaker.swift in Sources */,
 				6AC6CEDA2352240400A1166A /* StandardMazeBuilderTests.swift in Sources */,
 				8971971F233E0516007E6EDF /* DesignPattern_SwiftTests.swift in Sources */,
 				6A9AA4BC2351FA8E00BB4DBB /* Maze.swift in Sources */,
@@ -474,6 +485,7 @@
 				6AC6CED423521F2700A1166A /* MazeBuilder.swift in Sources */,
 				6AC6CEED23535F4F00A1166A /* BombedMazeGame.swift in Sources */,
 				6AC6CEEF23535FE700A1166A /* BombedMazeGameTests.swift in Sources */,
+				6AC6CEF123536F6400A1166A /* BookMaker.swift in Sources */,
 				6AC6CEDE2352E6FA00A1166A /* CountingMazeBuilderTests.swift in Sources */,
 				6AC6CEE02352E98800A1166A /* CarBuilder.swift in Sources */,
 				6AC6CECE235207F600A1166A /* PhoneShop.swift in Sources */,
