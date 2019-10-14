@@ -1,6 +1,6 @@
 import Foundation
 
-class Maze {
+class Maze: Cloneable {
     
     private var rooms = [Room]()
     
@@ -55,4 +55,6 @@ class Maze {
         
         return maze
     }
+    
+    func clone() -> Maze { return Maze() }
 }

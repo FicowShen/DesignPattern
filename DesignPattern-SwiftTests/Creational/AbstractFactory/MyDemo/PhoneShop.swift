@@ -2,6 +2,9 @@ import Foundation
 
 class PhoneShop {
     static func makePhone(factory: PhoneFactory) -> Phone {
-        return factory.makePhone()
+        let screen = factory.makeScreen(content: "Apple")
+        var phone = factory.makePhone(model: "iPhone")
+        phone.screen = screen
+        return phone
     }
 }

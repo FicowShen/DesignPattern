@@ -15,9 +15,10 @@ class TouchScreen: Screen {
 
 class iPhone: Phone {
     
-    let screen: Screen
+    let model: String
+    var screen: Screen?
     
-    init() {
-        screen = TouchScreen(content: "Apple")
+    init(model: String) {
+        self.model = model
     }
 }

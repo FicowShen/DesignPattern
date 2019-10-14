@@ -1,6 +1,6 @@
 import Foundation
 
-class Door: MapSite {
+class Door: MapSite, Cloneable {
     
     private(set) var room: Room
     private(set) var anotherRoom: Room
@@ -26,4 +26,6 @@ class Door: MapSite {
     func enter() {
         
     }
+    
+    func clone() -> Door { return Door(room: room, anotherRoom: anotherRoom) }
 }
