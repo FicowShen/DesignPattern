@@ -2,10 +2,14 @@ import Foundation
 
 class Room: MapSite {
     
-    let roomNumber: Int
+    private(set) var roomNumber: Int
     private var sides = [Direction: MapSite]()
     
     init(roomNumber: Int) {
+        self.roomNumber = roomNumber
+    }
+    
+    func initialize(roomNumber: Int) {
         self.roomNumber = roomNumber
     }
     
