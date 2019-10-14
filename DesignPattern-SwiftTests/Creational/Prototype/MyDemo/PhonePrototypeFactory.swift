@@ -1,6 +1,6 @@
 import Foundation
 
-class PrototypePhone: Phone {
+class PrototypePhone: Phone, Cloneable {
     var model: String
     var screen: Screen?
     
@@ -11,15 +11,19 @@ class PrototypePhone: Phone {
     func initialize(model: String) {
         self.model = model
     }
-}
-
-extension PrototypePhone: Cloneable {
+    
     func clone() -> PrototypePhone {
         return PrototypePhone(model: model)
     }
 }
 
-class PrototypeScreen: Screen {
+class FoldablePhone: PrototypePhone {
+    override func clone() -> PrototypePhone {
+        return FoldablePhone(model: model)
+    }
+}
+
+class PrototypeScreen: Screen, Cloneable {
     
     private(set) var content: String
     
@@ -34,9 +38,7 @@ class PrototypeScreen: Screen {
     func displayContent() -> String {
         return content
     }
-}
-
-extension PrototypeScreen: Cloneable {
+    
     func clone() -> PrototypeScreen {
         return PrototypeScreen(content: content)
     }
