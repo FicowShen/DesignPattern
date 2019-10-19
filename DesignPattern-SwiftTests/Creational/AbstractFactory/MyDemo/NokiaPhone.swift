@@ -15,10 +15,9 @@ class NormalScreen: Screen {
 
 class NokiaPhone: Phone {
     
-    let model: String
-    var screen: Screen?
+    var screen: Screen
     
-    init(model: String) {
-        self.model = model
+    init(screen: Screen) {
+        self.screen = screen
     }
 }

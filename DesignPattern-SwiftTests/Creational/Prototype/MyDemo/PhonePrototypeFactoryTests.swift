@@ -3,10 +3,11 @@ import XCTest
 class PhonePrototypeFactoryTests: XCTestCase {
 
     func testExample() {
-        let prototypeFactory = PhonePrototypeFactory(phone: FoldablePhone(model: "Prototype Phone"), screen: PrototypeScreen(content: "Default Text"))
+        let screen = PrototypeScreen(content: "PrototypeScreen")
+        let prototypeFactory = PhonePrototypeFactory(phone: FoldablePhone(screen: screen), screen: screen)
         let phone = PhoneShop.makePhone(factory: prototypeFactory)
         XCTAssertTrue(phone is FoldablePhone)
-        XCTAssertEqual(phone.model, "iPhone")
-        XCTAssertEqual(phone.screen?.content, "Apple")
+        XCTAssertTrue(phone.screen is PrototypeScreen)
+        XCTAssertEqual(phone.screen.content, "PrototypeScreen")
     }
 }

@@ -1,28 +1,28 @@
 import Foundation
 
 protocol PhoneFactory {
-    func makeScreen(content: String) -> Screen
-    func makePhone(model: String) -> Phone
+    func makeScreen() -> Screen
+    func makePhone(screen: Screen) -> Phone
 }
 
 class NokiaPhoneFactory: PhoneFactory {
     
-    func makeScreen(content: String) -> Screen {
-        return NormalScreen(content: content)
+    func makeScreen() -> Screen {
+        return NormalScreen(content: "Nokia")
     }
     
-    func makePhone(model: String) -> Phone {
-        return NokiaPhone(model: model)
+    func makePhone(screen: Screen) -> Phone {
+        return NokiaPhone(screen: screen)
     }
 }
 
 class iPhoneFactory: PhoneFactory {
     
-    func makeScreen(content: String) -> Screen {
-        return TouchScreen(content: content)
+    func makeScreen() -> Screen {
+        return TouchScreen(content: "iPhone")
     }
     
-    func makePhone(model: String) -> Phone {
-        return iPhone(model: model)
+    func makePhone(screen: Screen) -> Phone {
+        return iPhone(screen: screen)
     }
 }

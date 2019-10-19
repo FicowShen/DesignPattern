@@ -6,6 +6,5 @@ protocol Screen {
 }
 
 protocol Phone {
-    var model: String { get }
-    var screen: Screen? { get set }
+    var screen: Screen { get set }
 }

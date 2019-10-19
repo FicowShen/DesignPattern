@@ -3,8 +3,8 @@ import XCTest
 class StandardMazeBuilderTests: XCTestCase {
 
     func testStandardMazeBuilder() {
-        let builder = StandardMazeBuilder()
-        guard let maze = Maze.createMaze(builder: builder) else {
+        let creator = MazeCreator()
+        guard let maze = Maze.createStandardMaze(creator: creator) else {
             XCTFail()
             return
         }
@@ -16,5 +16,4 @@ class StandardMazeBuilderTests: XCTestCase {
         XCTAssertTrue(room1.sideForDirection(.east) is Door)
         XCTAssertTrue(room2.sideForDirection(.west) is Door)
     }
-
 }

@@ -1,25 +1,25 @@
 import Foundation
 
 class PrototypePhone: Phone, Cloneable {
-    var model: String
-    var screen: Screen?
     
-    init(model: String) {
-        self.model = model
+    var screen: Screen
+    
+    init(screen: Screen) {
+        self.screen = screen
     }
     
-    func initialize(model: String) {
-        self.model = model
+    func initialize(screen: Screen) {
+        self.screen = screen
     }
     
     func clone() -> PrototypePhone {
-        return PrototypePhone(model: model)
+        return PrototypePhone(screen: screen)
     }
 }
 
 class FoldablePhone: PrototypePhone {
     override func clone() -> PrototypePhone {
-        return FoldablePhone(model: model)
+        return FoldablePhone(screen: screen)
     }
 }
 
@@ -28,10 +28,6 @@ class PrototypeScreen: Screen, Cloneable {
     private(set) var content: String
     
     init(content: String) {
-        self.content = content
-    }
-    
-    func initialize(content: String) {
         self.content = content
     }
     
@@ -53,15 +49,14 @@ class PhonePrototypeFactory: PhoneFactory {
         self.screen = screen
     }
     
-    func makeScreen(content: String) -> Screen {
+    func makeScreen() -> Screen {
         let newScreen = screen.clone()
-        newScreen.initialize(content: content)
         return newScreen
     }
     
-    func makePhone(model: String) -> Phone {
+    func makePhone(screen: Screen) -> Phone {
         let newPhone = phone.clone()
-        newPhone.initialize(model: model)
+        newPhone.initialize(screen: screen)
         return newPhone
     }
 }
