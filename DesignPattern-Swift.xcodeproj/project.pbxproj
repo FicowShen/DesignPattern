@@ -16,6 +16,14 @@
 		6A9AA4BE2351FB3D00BB4DBB /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9AA4BD2351FB3D00BB4DBB /* Direction.swift */; };
 		6AAD751F237EC3F50048DD90 /* SingletonMazeFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAD751E237EC3F50048DD90 /* SingletonMazeFactory.swift */; };
 		6AAD7521237EC4360048DD90 /* SingletonMazeFactoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAD7520237EC4360048DD90 /* SingletonMazeFactoryTests.swift */; };
+		6AAD7537237EC92D0048DD90 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAD7536237EC92D0048DD90 /* Shape.swift */; };
+		6AAD7539237ECAC30048DD90 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAD7538237ECAC30048DD90 /* TextView.swift */; };
+		6AAD753B237ECB7C0048DD90 /* TextShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAD753A237ECB7C0048DD90 /* TextShape.swift */; };
+		6AAD753E237ECEB10048DD90 /* FirstResponderConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAD753D237ECEB10048DD90 /* FirstResponderConvertible.swift */; };
+		6AAD7540237ECF060048DD90 /* Control.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAD753F237ECF060048DD90 /* Control.swift */; };
+		6AAD7542237ECFAB0048DD90 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAD7541237ECFAB0048DD90 /* ImageView.swift */; };
+		6AAD7544237ED0E80048DD90 /* TextShapeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAD7543237ED0E70048DD90 /* TextShapeTests.swift */; };
+		6AAD7546237ED5A90048DD90 /* ControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAD7545237ED5A90048DD90 /* ControlTests.swift */; };
 		6AC6CEBF2352009700A1166A /* EnchantedMazeFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC6CEBE2352009700A1166A /* EnchantedMazeFactory.swift */; };
 		6AC6CEC1235201A300A1166A /* EnchantedFactoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC6CEC0235201A300A1166A /* EnchantedFactoryTests.swift */; };
 		6AC6CEC4235202C100A1166A /* Phone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC6CEC3235202C100A1166A /* Phone.swift */; };
@@ -81,6 +89,14 @@
 		6A9AA4BD2351FB3D00BB4DBB /* Direction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Direction.swift; sourceTree = "<group>"; };
 		6AAD751E237EC3F50048DD90 /* SingletonMazeFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonMazeFactory.swift; sourceTree = "<group>"; };
 		6AAD7520237EC4360048DD90 /* SingletonMazeFactoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonMazeFactoryTests.swift; sourceTree = "<group>"; };
+		6AAD7536237EC92D0048DD90 /* Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
+		6AAD7538237ECAC30048DD90 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		6AAD753A237ECB7C0048DD90 /* TextShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextShape.swift; sourceTree = "<group>"; };
+		6AAD753D237ECEB10048DD90 /* FirstResponderConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstResponderConvertible.swift; sourceTree = "<group>"; };
+		6AAD753F237ECF060048DD90 /* Control.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Control.swift; sourceTree = "<group>"; };
+		6AAD7541237ECFAB0048DD90 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		6AAD7543237ED0E70048DD90 /* TextShapeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextShapeTests.swift; sourceTree = "<group>"; };
+		6AAD7545237ED5A90048DD90 /* ControlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlTests.swift; sourceTree = "<group>"; };
 		6AC6CEBE2352009700A1166A /* EnchantedMazeFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnchantedMazeFactory.swift; sourceTree = "<group>"; };
 		6AC6CEC0235201A300A1166A /* EnchantedFactoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnchantedFactoryTests.swift; sourceTree = "<group>"; };
 		6AC6CEC3235202C100A1166A /* Phone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phone.swift; sourceTree = "<group>"; };
@@ -201,6 +217,180 @@
 				6AAD7520237EC4360048DD90 /* SingletonMazeFactoryTests.swift */,
 			);
 			path = BookDemo;
+			sourceTree = "<group>";
+		};
+		6AAD7522237EC4C90048DD90 /* Structural */ = {
+			isa = PBXGroup;
+			children = (
+				6AAD7529237EC55B0048DD90 /* Adapter */,
+				6AAD7528237EC5530048DD90 /* Bridge */,
+				6AAD7527237EC5430048DD90 /* Composite */,
+				6AAD7526237EC53B0048DD90 /* Decorator */,
+				6AAD7525237EC5280048DD90 /* Facade */,
+				6AAD7524237EC5060048DD90 /* FlyWeight */,
+				6AAD7523237EC4EC0048DD90 /* Proxy */,
+			);
+			path = Structural;
+			sourceTree = "<group>";
+		};
+		6AAD7523237EC4EC0048DD90 /* Proxy */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Proxy;
+			sourceTree = "<group>";
+		};
+		6AAD7524237EC5060048DD90 /* FlyWeight */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FlyWeight;
+			sourceTree = "<group>";
+		};
+		6AAD7525237EC5280048DD90 /* Facade */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Facade;
+			sourceTree = "<group>";
+		};
+		6AAD7526237EC53B0048DD90 /* Decorator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Decorator;
+			sourceTree = "<group>";
+		};
+		6AAD7527237EC5430048DD90 /* Composite */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Composite;
+			sourceTree = "<group>";
+		};
+		6AAD7528237EC5530048DD90 /* Bridge */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Bridge;
+			sourceTree = "<group>";
+		};
+		6AAD7529237EC55B0048DD90 /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				6AAD753C237ECE630048DD90 /* MyDemo */,
+				6AAD752A237EC57A0048DD90 /* BookDemo */,
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
+		6AAD752A237EC57A0048DD90 /* BookDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6AAD7536237EC92D0048DD90 /* Shape.swift */,
+				6AAD7538237ECAC30048DD90 /* TextView.swift */,
+				6AAD753A237ECB7C0048DD90 /* TextShape.swift */,
+				6AAD7543237ED0E70048DD90 /* TextShapeTests.swift */,
+			);
+			path = BookDemo;
+			sourceTree = "<group>";
+		};
+		6AAD752B237EC5920048DD90 /* Behavioral */ = {
+			isa = PBXGroup;
+			children = (
+				6AAD7535237EC60E0048DD90 /* Chain of Responsibility */,
+				6AAD7534237EC6060048DD90 /* Command */,
+				6AAD7533237EC5FA0048DD90 /* Interpreter */,
+				6AAD7532237EC5EF0048DD90 /* Iterator */,
+				6AAD7531237EC5E60048DD90 /* Mediator */,
+				6AAD7530237EC5D70048DD90 /* Memento */,
+				6AAD752F237EC5D20048DD90 /* Observer */,
+				6AAD752E237EC5C90048DD90 /* Strategy */,
+				6AAD752D237EC5AF0048DD90 /* Template Method */,
+				6AAD752C237EC5A80048DD90 /* Vistor */,
+			);
+			path = Behavioral;
+			sourceTree = "<group>";
+		};
+		6AAD752C237EC5A80048DD90 /* Vistor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vistor;
+			sourceTree = "<group>";
+		};
+		6AAD752D237EC5AF0048DD90 /* Template Method */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Template Method";
+			sourceTree = "<group>";
+		};
+		6AAD752E237EC5C90048DD90 /* Strategy */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Strategy;
+			sourceTree = "<group>";
+		};
+		6AAD752F237EC5D20048DD90 /* Observer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Observer;
+			sourceTree = "<group>";
+		};
+		6AAD7530237EC5D70048DD90 /* Memento */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Memento;
+			sourceTree = "<group>";
+		};
+		6AAD7531237EC5E60048DD90 /* Mediator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mediator;
+			sourceTree = "<group>";
+		};
+		6AAD7532237EC5EF0048DD90 /* Iterator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Iterator;
+			sourceTree = "<group>";
+		};
+		6AAD7533237EC5FA0048DD90 /* Interpreter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interpreter;
+			sourceTree = "<group>";
+		};
+		6AAD7534237EC6060048DD90 /* Command */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Command;
+			sourceTree = "<group>";
+		};
+		6AAD7535237EC60E0048DD90 /* Chain of Responsibility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Chain of Responsibility";
+			sourceTree = "<group>";
+		};
+		6AAD753C237ECE630048DD90 /* MyDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6AAD753D237ECEB10048DD90 /* FirstResponderConvertible.swift */,
+				6AAD753F237ECF060048DD90 /* Control.swift */,
+				6AAD7541237ECFAB0048DD90 /* ImageView.swift */,
+				6AAD7545237ED5A90048DD90 /* ControlTests.swift */,
+			);
+			path = MyDemo;
 			sourceTree = "<group>";
 		};
 		6AC6CEC2235202A800A1166A /* MyDemo */ = {
@@ -360,6 +550,8 @@
 			isa = PBXGroup;
 			children = (
 				6A9AA4B12351FA5000BB4DBB /* Creational */,
+				6AAD7522237EC4C90048DD90 /* Structural */,
+				6AAD752B237EC5920048DD90 /* Behavioral */,
 				89719720233E0516007E6EDF /* Info.plist */,
 				8971971E233E0516007E6EDF /* DesignPattern_SwiftTests.swift */,
 			);
@@ -520,11 +712,14 @@
 				6AC6CECA235206D700A1166A /* PhoneFactory.swift in Sources */,
 				6AC6CEDC2352E65600A1166A /* CountingMazeBuilder.swift in Sources */,
 				6AC6CEC1235201A300A1166A /* EnchantedFactoryTests.swift in Sources */,
+				6AAD7542237ECFAB0048DD90 /* ImageView.swift in Sources */,
 				6AC6CEFC2354A31A00A1166A /* MazePrototypeFactoryTests.swift in Sources */,
 				6AC6CED82352216400A1166A /* StandardMazeBuilder.swift in Sources */,
 				6AC6CEEB2353030100A1166A /* MazeGame.swift in Sources */,
 				6AC6CEF5235372D800A1166A /* MegazineMakerTests.swift in Sources */,
+				6AAD7540237ECF060048DD90 /* Control.swift in Sources */,
 				6AC6CF002354C2F000A1166A /* PhonePrototypeFactoryTests.swift in Sources */,
+				6AAD7539237ECAC30048DD90 /* TextView.swift in Sources */,
 				6AC6CEC62352038800A1166A /* NokiaPhone.swift in Sources */,
 				6A9AA4BA2351FA8100BB4DBB /* Door.swift in Sources */,
 				6AC6CEBF2352009700A1166A /* EnchantedMazeFactory.swift in Sources */,
@@ -534,7 +729,9 @@
 				6A9AA4BE2351FB3D00BB4DBB /* Direction.swift in Sources */,
 				6AC6CECC2352076000A1166A /* PhoneShopTests.swift in Sources */,
 				6AC6CEFA23549FA000A1166A /* MazePrototypeFactory.swift in Sources */,
+				6AAD7546237ED5A90048DD90 /* ControlTests.swift in Sources */,
 				6AAD751F237EC3F50048DD90 /* SingletonMazeFactory.swift in Sources */,
+				6AAD7537237EC92D0048DD90 /* Shape.swift in Sources */,
 				6AC6CEE62352EE0700A1166A /* CarBuilderTests.swift in Sources */,
 				6A9AA4B82351FA7A00BB4DBB /* Wall.swift in Sources */,
 				6AC6CEE22352EAF500A1166A /* Car.swift in Sources */,
@@ -546,6 +743,7 @@
 				6AC6CEC4235202C100A1166A /* Phone.swift in Sources */,
 				6AC6CEE42352EB9F00A1166A /* BenzCarBuilder.swift in Sources */,
 				6AC6CED423521F2700A1166A /* MazeBuilder.swift in Sources */,
+				6AAD753E237ECEB10048DD90 /* FirstResponderConvertible.swift in Sources */,
 				6AC6CEED23535F4F00A1166A /* BombedMazeGame.swift in Sources */,
 				6AAD7521237EC4360048DD90 /* SingletonMazeFactoryTests.swift in Sources */,
 				6AC6CEEF23535FE700A1166A /* BombedMazeGameTests.swift in Sources */,
@@ -553,7 +751,9 @@
 				6AC6CEDE2352E6FA00A1166A /* CountingMazeBuilderTests.swift in Sources */,
 				6AC6CEE02352E98800A1166A /* CarBuilder.swift in Sources */,
 				6AC6CECE235207F600A1166A /* PhoneShop.swift in Sources */,
+				6AAD7544237ED0E80048DD90 /* TextShapeTests.swift in Sources */,
 				6AC6CEC82352069D00A1166A /* iPhone.swift in Sources */,
+				6AAD753B237ECB7C0048DD90 /* TextShape.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
