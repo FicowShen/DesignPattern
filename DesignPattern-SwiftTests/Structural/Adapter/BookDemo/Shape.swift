@@ -1,7 +1,8 @@
 import Foundation
-import struct UIKit.CGPoint
 
-typealias Point = CGPoint
+struct Point: Equatable {
+    let x, y: Double
+}
 
 protocol Shape: class {
     func boundingBox() -> (bottomLeft: Point, topRight: Point)
