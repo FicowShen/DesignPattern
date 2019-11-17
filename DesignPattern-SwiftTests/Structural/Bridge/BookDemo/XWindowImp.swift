@@ -22,13 +22,9 @@ class XWindowImp: WindowImp {
         self.gc = gc
     }
     
-    func impTop() {
-        
-    }
+    func impTop() {}
     
-    func impBottom() {
-        
-    }
+    func impBottom() {}
     
     func deviceRect(x0: Double, y0: Double, x1: Double, y1: Double) {
         let x = round(min(x0, x1))
@@ -44,8 +40,6 @@ class XWindowImp: WindowImp {
                        height: h)
     }
     
-    func deviceBitmap(_ name: String, x: Double, y: Double) {
-        
-    }
+    func deviceBitmap(_ name: String, x: Double, y: Double) {}
 }
 
