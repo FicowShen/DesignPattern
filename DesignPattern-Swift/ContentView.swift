@@ -2,7 +2,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello World")
+        Text("The Design Patterns code is in `DesignPattern-SwiftTests` folder!")
     }
 }
 

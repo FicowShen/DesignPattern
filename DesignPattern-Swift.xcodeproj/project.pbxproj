@@ -62,12 +62,14 @@
 		6ACA5056238120EA00990615 /* HybridViewImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACA5055238120EA00990615 /* HybridViewImp.swift */; };
 		6ACA50582381224000990615 /* HybridViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACA50572381224000990615 /* HybridViewFactory.swift */; };
 		6ACA505C238123DA00990615 /* HybridViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACA505B238123DA00990615 /* HybridViewTests.swift */; };
+		6ACC150B23A4B4A0006E6229 /* VisualComponentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACC150A23A4B4A0006E6229 /* VisualComponentTests.swift */; };
 		6AD899D5238EBE3200395762 /* Equipment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD899D4238EBE3200395762 /* Equipment.swift */; };
 		6AD899D7238EC02C00395762 /* FloppyDisk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD899D6238EC02C00395762 /* FloppyDisk.swift */; };
 		6AD899D9238EC09C00395762 /* CompositeEquipment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD899D8238EC09C00395762 /* CompositeEquipment.swift */; };
 		6AD899DB238EC1D100395762 /* EquipmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD899DA238EC1D100395762 /* EquipmentTests.swift */; };
 		6AD899DD238EC34900395762 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD899DC238EC34900395762 /* TreeNode.swift */; };
 		6AD899DF238EC38D00395762 /* TreeNodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD899DE238EC38D00395762 /* TreeNodeTests.swift */; };
+		6AF7FBC123A4996E0045D4F1 /* VisualComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF7FBC023A4996E0045D4F1 /* VisualComponent.swift */; };
 		89719708233E0514007E6EDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89719707233E0514007E6EDF /* AppDelegate.swift */; };
 		8971970A233E0514007E6EDF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89719709233E0514007E6EDF /* SceneDelegate.swift */; };
 		8971970C233E0514007E6EDF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8971970B233E0514007E6EDF /* ContentView.swift */; };
@@ -151,12 +153,14 @@
 		6ACA5055238120EA00990615 /* HybridViewImp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HybridViewImp.swift; sourceTree = "<group>"; };
 		6ACA50572381224000990615 /* HybridViewFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HybridViewFactory.swift; sourceTree = "<group>"; };
 		6ACA505B238123DA00990615 /* HybridViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HybridViewTests.swift; sourceTree = "<group>"; };
+		6ACC150A23A4B4A0006E6229 /* VisualComponentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualComponentTests.swift; sourceTree = "<group>"; };
 		6AD899D4238EBE3200395762 /* Equipment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Equipment.swift; sourceTree = "<group>"; };
 		6AD899D6238EC02C00395762 /* FloppyDisk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloppyDisk.swift; sourceTree = "<group>"; };
 		6AD899D8238EC09C00395762 /* CompositeEquipment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositeEquipment.swift; sourceTree = "<group>"; };
 		6AD899DA238EC1D100395762 /* EquipmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentTests.swift; sourceTree = "<group>"; };
 		6AD899DC238EC34900395762 /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
 		6AD899DE238EC38D00395762 /* TreeNodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNodeTests.swift; sourceTree = "<group>"; };
+		6AF7FBC023A4996E0045D4F1 /* VisualComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualComponent.swift; sourceTree = "<group>"; };
 		89719704233E0514007E6EDF /* DesignPattern-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DesignPattern-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		89719707233E0514007E6EDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89719709233E0514007E6EDF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -289,6 +293,8 @@
 		6AAD7526237EC53B0048DD90 /* Decorator */ = {
 			isa = PBXGroup;
 			children = (
+				6AF7FBBF23A499580045D4F1 /* MyDemo */,
+				6AF7FBBE23A499490045D4F1 /* BookDemo */,
 			);
 			path = Decorator;
 			sourceTree = "<group>";
@@ -584,6 +590,22 @@
 			path = MyDemo;
 			sourceTree = "<group>";
 		};
+		6AF7FBBE23A499490045D4F1 /* BookDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6AF7FBC023A4996E0045D4F1 /* VisualComponent.swift */,
+				6ACC150A23A4B4A0006E6229 /* VisualComponentTests.swift */,
+			);
+			path = BookDemo;
+			sourceTree = "<group>";
+		};
+		6AF7FBBF23A499580045D4F1 /* MyDemo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MyDemo;
+			sourceTree = "<group>";
+		};
 		897196FB233E0514007E6EDF = {
 			isa = PBXGroup;
 			children = (
@@ -806,6 +828,7 @@
 				6AC6CF002354C2F000A1166A /* PhonePrototypeFactoryTests.swift in Sources */,
 				6AAD7539237ECAC30048DD90 /* TextView.swift in Sources */,
 				6AC6CEC62352038800A1166A /* NokiaPhone.swift in Sources */,
+				6AF7FBC123A4996E0045D4F1 /* VisualComponent.swift in Sources */,
 				6AD899D9238EC09C00395762 /* CompositeEquipment.swift in Sources */,
 				6A9AA4BA2351FA8100BB4DBB /* Door.swift in Sources */,
 				6AC6CEBF2352009700A1166A /* EnchantedMazeFactory.swift in Sources */,
@@ -834,6 +857,7 @@
 				6ACA504F237FD86B00990615 /* WindowSystemFactory.swift in Sources */,
 				6AC6CEE42352EB9F00A1166A /* BenzCarBuilder.swift in Sources */,
 				6AC6CED423521F2700A1166A /* MazeBuilder.swift in Sources */,
+				6ACC150B23A4B4A0006E6229 /* VisualComponentTests.swift in Sources */,
 				6AAD753E237ECEB10048DD90 /* FirstResponderConvertible.swift in Sources */,
 				6AC6CEED23535F4F00A1166A /* BombedMazeGame.swift in Sources */,
 				6AAD7521237EC4360048DD90 /* SingletonMazeFactoryTests.swift in Sources */,
