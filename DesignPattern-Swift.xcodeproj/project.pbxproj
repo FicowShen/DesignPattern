@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A56DC9323C06FA000E8BCE7 /* FlyweightGlyph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A56DC9223C06FA000E8BCE7 /* FlyweightGlyph.swift */; };
+		6A56DC9523C07AF100E8BCE7 /* FlyweightGlyphTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A56DC9423C07AF100E8BCE7 /* FlyweightGlyphTests.swift */; };
+		6A56DC9723C07C9100E8BCE7 /* FlyweightColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A56DC9623C07C9100E8BCE7 /* FlyweightColor.swift */; };
+		6A56DC9923C0945100E8BCE7 /* FlyweightColorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A56DC9823C0945100E8BCE7 /* FlyweightColorTests.swift */; };
 		6A9AA4B02351F9F700BB4DBB /* MazeFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9AA4AF2351F9F700BB4DBB /* MazeFactory.swift */; };
 		6A9AA4B42351FA6B00BB4DBB /* MapSite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9AA4B32351FA6B00BB4DBB /* MapSite.swift */; };
 		6A9AA4B62351FA7300BB4DBB /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9AA4B52351FA7300BB4DBB /* Room.swift */; };
@@ -104,6 +108,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6A56DC9223C06FA000E8BCE7 /* FlyweightGlyph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyweightGlyph.swift; sourceTree = "<group>"; };
+		6A56DC9423C07AF100E8BCE7 /* FlyweightGlyphTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyweightGlyphTests.swift; sourceTree = "<group>"; };
+		6A56DC9623C07C9100E8BCE7 /* FlyweightColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyweightColor.swift; sourceTree = "<group>"; };
+		6A56DC9823C0945100E8BCE7 /* FlyweightColorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyweightColorTests.swift; sourceTree = "<group>"; };
 		6A9AA4AF2351F9F700BB4DBB /* MazeFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MazeFactory.swift; sourceTree = "<group>"; };
 		6A9AA4B32351FA6B00BB4DBB /* MapSite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapSite.swift; sourceTree = "<group>"; };
 		6A9AA4B52351FA7300BB4DBB /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
@@ -214,6 +222,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6A56DC9023C06E7F00E8BCE7 /* BookDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6A56DC9223C06FA000E8BCE7 /* FlyweightGlyph.swift */,
+				6A56DC9423C07AF100E8BCE7 /* FlyweightGlyphTests.swift */,
+			);
+			path = BookDemo;
+			sourceTree = "<group>";
+		};
+		6A56DC9123C06E9200E8BCE7 /* MyDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6A56DC9623C07C9100E8BCE7 /* FlyweightColor.swift */,
+				6A56DC9823C0945100E8BCE7 /* FlyweightColorTests.swift */,
+			);
+			path = MyDemo;
+			sourceTree = "<group>";
+		};
 		6A9AA4B12351FA5000BB4DBB /* Creational */ = {
 			isa = PBXGroup;
 			children = (
@@ -291,6 +317,8 @@
 		6AAD7524237EC5060048DD90 /* FlyWeight */ = {
 			isa = PBXGroup;
 			children = (
+				6A56DC9123C06E9200E8BCE7 /* MyDemo */,
+				6A56DC9023C06E7F00E8BCE7 /* BookDemo */,
 			);
 			path = FlyWeight;
 			sourceTree = "<group>";
@@ -862,6 +890,7 @@
 				6AD899DB238EC1D100395762 /* EquipmentTests.swift in Sources */,
 				6ACBC10523A66DA20076A87F /* CompilerTests.swift in Sources */,
 				6AC6CF002354C2F000A1166A /* PhonePrototypeFactoryTests.swift in Sources */,
+				6A56DC9323C06FA000E8BCE7 /* FlyweightGlyph.swift in Sources */,
 				6AAD7539237ECAC30048DD90 /* TextView.swift in Sources */,
 				6AC6CEC62352038800A1166A /* NokiaPhone.swift in Sources */,
 				6AF7FBC123A4996E0045D4F1 /* VisualComponent.swift in Sources */,
@@ -897,6 +926,8 @@
 				6ACC150B23A4B4A0006E6229 /* VisualComponentTests.swift in Sources */,
 				6AAD753E237ECEB10048DD90 /* FirstResponderConvertible.swift in Sources */,
 				6AC6CEED23535F4F00A1166A /* BombedMazeGame.swift in Sources */,
+				6A56DC9723C07C9100E8BCE7 /* FlyweightColor.swift in Sources */,
+				6A56DC9923C0945100E8BCE7 /* FlyweightColorTests.swift in Sources */,
 				6AAD7521237EC4360048DD90 /* SingletonMazeFactoryTests.swift in Sources */,
 				6AD899DF238EC38D00395762 /* TreeNodeTests.swift in Sources */,
 				6AC6CEEF23535FE700A1166A /* BombedMazeGameTests.swift in Sources */,
@@ -913,6 +944,7 @@
 				6AC6CEC82352069D00A1166A /* iPhone.swift in Sources */,
 				6AAD753B237ECB7C0048DD90 /* TextShape.swift in Sources */,
 				6ACA5049237FD47000990615 /* Window.swift in Sources */,
+				6A56DC9523C07AF100E8BCE7 /* FlyweightGlyphTests.swift in Sources */,
 				6ACA5056238120EA00990615 /* HybridViewImp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
