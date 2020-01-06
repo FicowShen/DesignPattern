@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A452C7A23C37EF800E6253C /* Graphic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A452C7923C37EF800E6253C /* Graphic.swift */; };
+		6A452C7C23C3821700E6253C /* GraphicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A452C7B23C3821600E6253C /* GraphicTests.swift */; };
 		6A56DC9323C06FA000E8BCE7 /* FlyweightGlyph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A56DC9223C06FA000E8BCE7 /* FlyweightGlyph.swift */; };
 		6A56DC9523C07AF100E8BCE7 /* FlyweightGlyphTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A56DC9423C07AF100E8BCE7 /* FlyweightGlyphTests.swift */; };
 		6A56DC9723C07C9100E8BCE7 /* FlyweightColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A56DC9623C07C9100E8BCE7 /* FlyweightColor.swift */; };
@@ -108,6 +110,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6A452C7923C37EF800E6253C /* Graphic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graphic.swift; sourceTree = "<group>"; };
+		6A452C7B23C3821600E6253C /* GraphicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphicTests.swift; sourceTree = "<group>"; };
 		6A56DC9223C06FA000E8BCE7 /* FlyweightGlyph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyweightGlyph.swift; sourceTree = "<group>"; };
 		6A56DC9423C07AF100E8BCE7 /* FlyweightGlyphTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyweightGlyphTests.swift; sourceTree = "<group>"; };
 		6A56DC9623C07C9100E8BCE7 /* FlyweightColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyweightColor.swift; sourceTree = "<group>"; };
@@ -222,6 +226,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6A452C7723C37EC800E6253C /* BookDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6A452C7923C37EF800E6253C /* Graphic.swift */,
+				6A452C7B23C3821600E6253C /* GraphicTests.swift */,
+			);
+			path = BookDemo;
+			sourceTree = "<group>";
+		};
+		6A452C7823C37ED500E6253C /* MyDemo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MyDemo;
+			sourceTree = "<group>";
+		};
 		6A56DC9023C06E7F00E8BCE7 /* BookDemo */ = {
 			isa = PBXGroup;
 			children = (
@@ -310,6 +330,8 @@
 		6AAD7523237EC4EC0048DD90 /* Proxy */ = {
 			isa = PBXGroup;
 			children = (
+				6A452C7823C37ED500E6253C /* MyDemo */,
+				6A452C7723C37EC800E6253C /* BookDemo */,
 			);
 			path = Proxy;
 			sourceTree = "<group>";
@@ -899,6 +921,7 @@
 				6AC6CEBF2352009700A1166A /* EnchantedMazeFactory.swift in Sources */,
 				6AC6CEFE2354B7BC00A1166A /* PhonePrototypeFactory.swift in Sources */,
 				6A9AA4B02351F9F700BB4DBB /* MazeFactory.swift in Sources */,
+				6A452C7A23C37EF800E6253C /* Graphic.swift in Sources */,
 				6AC6CED62352213E00A1166A /* MazeBuiltFromBuilder.swift in Sources */,
 				6A9AA4BE2351FB3D00BB4DBB /* Direction.swift in Sources */,
 				6AC6CECC2352076000A1166A /* PhoneShopTests.swift in Sources */,
@@ -941,6 +964,7 @@
 				6ACA5054237FE0DE00990615 /* HybridView.swift in Sources */,
 				6ACA504D237FD63800990615 /* XWindowImp.swift in Sources */,
 				6AAD7544237ED0E80048DD90 /* TextShapeTests.swift in Sources */,
+				6A452C7C23C3821700E6253C /* GraphicTests.swift in Sources */,
 				6AC6CEC82352069D00A1166A /* iPhone.swift in Sources */,
 				6AAD753B237ECB7C0048DD90 /* TextShape.swift in Sources */,
 				6ACA5049237FD47000990615 /* Window.swift in Sources */,
