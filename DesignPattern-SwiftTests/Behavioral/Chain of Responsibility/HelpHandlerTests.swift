@@ -15,6 +15,3 @@ class HelpHandlerTests: XCTestCase {
         XCTAssertTrue(didShowDialogHelp)
     }
 }
-
-
-
