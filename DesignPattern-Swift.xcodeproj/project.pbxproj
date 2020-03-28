@@ -20,6 +20,8 @@
 		6A9AA4BA2351FA8100BB4DBB /* Door.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9AA4B92351FA8100BB4DBB /* Door.swift */; };
 		6A9AA4BC2351FA8E00BB4DBB /* Maze.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9AA4BB2351FA8E00BB4DBB /* Maze.swift */; };
 		6A9AA4BE2351FB3D00BB4DBB /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9AA4BD2351FB3D00BB4DBB /* Direction.swift */; };
+		6A9E11FB242F25E60039FA51 /* HelpHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9E11FA242F25E60039FA51 /* HelpHandler.swift */; };
+		6A9E11FD242F2B350039FA51 /* HelpHandlerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9E11FC242F2B350039FA51 /* HelpHandlerTests.swift */; };
 		6AAD751F237EC3F50048DD90 /* SingletonMazeFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAD751E237EC3F50048DD90 /* SingletonMazeFactory.swift */; };
 		6AAD7521237EC4360048DD90 /* SingletonMazeFactoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAD7520237EC4360048DD90 /* SingletonMazeFactoryTests.swift */; };
 		6AAD7537237EC92D0048DD90 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAD7536237EC92D0048DD90 /* Shape.swift */; };
@@ -123,6 +125,8 @@
 		6A9AA4B92351FA8100BB4DBB /* Door.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Door.swift; sourceTree = "<group>"; };
 		6A9AA4BB2351FA8E00BB4DBB /* Maze.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maze.swift; sourceTree = "<group>"; };
 		6A9AA4BD2351FB3D00BB4DBB /* Direction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Direction.swift; sourceTree = "<group>"; };
+		6A9E11FA242F25E60039FA51 /* HelpHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpHandler.swift; sourceTree = "<group>"; };
+		6A9E11FC242F2B350039FA51 /* HelpHandlerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpHandlerTests.swift; sourceTree = "<group>"; };
 		6AAD751E237EC3F50048DD90 /* SingletonMazeFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonMazeFactory.swift; sourceTree = "<group>"; };
 		6AAD7520237EC4360048DD90 /* SingletonMazeFactoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonMazeFactoryTests.swift; sourceTree = "<group>"; };
 		6AAD7536237EC92D0048DD90 /* Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
@@ -226,22 +230,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6A452C7723C37EC800E6253C /* BookDemo */ = {
-			isa = PBXGroup;
-			children = (
-				6A452C7923C37EF800E6253C /* Graphic.swift */,
-				6A452C7B23C3821600E6253C /* GraphicTests.swift */,
-			);
-			path = BookDemo;
-			sourceTree = "<group>";
-		};
-		6A452C7823C37ED500E6253C /* MyDemo */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = MyDemo;
-			sourceTree = "<group>";
-		};
 		6A56DC9023C06E7F00E8BCE7 /* BookDemo */ = {
 			isa = PBXGroup;
 			children = (
@@ -330,8 +318,8 @@
 		6AAD7523237EC4EC0048DD90 /* Proxy */ = {
 			isa = PBXGroup;
 			children = (
-				6A452C7823C37ED500E6253C /* MyDemo */,
-				6A452C7723C37EC800E6253C /* BookDemo */,
+				6A452C7923C37EF800E6253C /* Graphic.swift */,
+				6A452C7B23C3821600E6253C /* GraphicTests.swift */,
 			);
 			path = Proxy;
 			sourceTree = "<group>";
@@ -484,6 +472,8 @@
 		6AAD7535237EC60E0048DD90 /* Chain of Responsibility */ = {
 			isa = PBXGroup;
 			children = (
+				6A9E11FA242F25E60039FA51 /* HelpHandler.swift */,
+				6A9E11FC242F2B350039FA51 /* HelpHandlerTests.swift */,
 			);
 			path = "Chain of Responsibility";
 			sourceTree = "<group>";
@@ -911,7 +901,9 @@
 				6AAD7540237ECF060048DD90 /* Control.swift in Sources */,
 				6AD899DB238EC1D100395762 /* EquipmentTests.swift in Sources */,
 				6ACBC10523A66DA20076A87F /* CompilerTests.swift in Sources */,
+				6A9E11FB242F25E60039FA51 /* HelpHandler.swift in Sources */,
 				6AC6CF002354C2F000A1166A /* PhonePrototypeFactoryTests.swift in Sources */,
+				6A9E11FD242F2B350039FA51 /* HelpHandlerTests.swift in Sources */,
 				6A56DC9323C06FA000E8BCE7 /* FlyweightGlyph.swift in Sources */,
 				6AAD7539237ECAC30048DD90 /* TextView.swift in Sources */,
 				6AC6CEC62352038800A1166A /* NokiaPhone.swift in Sources */,
