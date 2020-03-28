@@ -2,13 +2,15 @@ import XCTest
 
 class HelpHandlerTests: XCTestCase {
     func testExample() {
-        let app = ChainApplication(topic: .help(name: "app"))
-        let dialog = ChainDialog(handler: app, topic: .help(name: "dialog"))
+        let app = HelpHandler.Application(topic: .help(name: "app"))
+        let dialog = HelpHandler.Widget.Dialog(handler: app,
+                                               topic: .help(name: "dialog"))
         var didShowDialogHelp = false
         dialog.customizedHelp = {
             didShowDialogHelp = true
         }
-        let button = ChainButton(parent: dialog, topic: .noHelp)
+        let button = HelpHandler.Widget.Button(parent: dialog,
+                                               topic: .noHelp)
         button.handleHelp()
         XCTAssertTrue(didShowDialogHelp)
     }
