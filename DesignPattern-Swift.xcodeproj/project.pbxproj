@@ -68,6 +68,9 @@
 		6AC6CF002354C2F000A1166A /* PhonePrototypeFactoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC6CEFF2354C2F000A1166A /* PhonePrototypeFactoryTests.swift */; };
 		6ACA4B712432C96600D49B7A /* Mediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACA4B702432C96600D49B7A /* Mediator.swift */; };
 		6ACA4B732432D84100D49B7A /* MediatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACA4B722432D84100D49B7A /* MediatorTests.swift */; };
+		6ACA4B812434206F00D49B7A /* Memento.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACA4B802434206F00D49B7A /* Memento.swift */; };
+		6ACA4B83243421BC00D49B7A /* ConstraintSolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACA4B82243421BC00D49B7A /* ConstraintSolver.swift */; };
+		6ACA4B85243429EB00D49B7A /* MementoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACA4B84243429EB00D49B7A /* MementoTests.swift */; };
 		6ACA5047237FCF9D00990615 /* WindowProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACA5046237FCF9D00990615 /* WindowProtocols.swift */; };
 		6ACA5049237FD47000990615 /* Window.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACA5048237FD47000990615 /* Window.swift */; };
 		6ACA504B237FD47C00990615 /* PMWindowImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACA504A237FD47C00990615 /* PMWindowImp.swift */; };
@@ -181,6 +184,9 @@
 		6AC6CEFF2354C2F000A1166A /* PhonePrototypeFactoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhonePrototypeFactoryTests.swift; sourceTree = "<group>"; };
 		6ACA4B702432C96600D49B7A /* Mediator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mediator.swift; sourceTree = "<group>"; };
 		6ACA4B722432D84100D49B7A /* MediatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediatorTests.swift; sourceTree = "<group>"; };
+		6ACA4B802434206F00D49B7A /* Memento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memento.swift; sourceTree = "<group>"; };
+		6ACA4B82243421BC00D49B7A /* ConstraintSolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintSolver.swift; sourceTree = "<group>"; };
+		6ACA4B84243429EB00D49B7A /* MementoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MementoTests.swift; sourceTree = "<group>"; };
 		6ACA5046237FCF9D00990615 /* WindowProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowProtocols.swift; sourceTree = "<group>"; };
 		6ACA5048237FD47000990615 /* Window.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Window.swift; sourceTree = "<group>"; };
 		6ACA504A237FD47C00990615 /* PMWindowImp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PMWindowImp.swift; sourceTree = "<group>"; };
@@ -453,6 +459,9 @@
 		6AAD7530237EC5D70048DD90 /* Memento */ = {
 			isa = PBXGroup;
 			children = (
+				6ACA4B802434206F00D49B7A /* Memento.swift */,
+				6ACA4B82243421BC00D49B7A /* ConstraintSolver.swift */,
+				6ACA4B84243429EB00D49B7A /* MementoTests.swift */,
 			);
 			path = Memento;
 			sourceTree = "<group>";
@@ -913,6 +922,7 @@
 				6A9AA4B42351FA6B00BB4DBB /* MapSite.swift in Sources */,
 				6AC6CECA235206D700A1166A /* PhoneFactory.swift in Sources */,
 				6A0CAF042430C3890057C01A /* InterpreterTests.swift in Sources */,
+				6ACA4B85243429EB00D49B7A /* MementoTests.swift in Sources */,
 				6AC6CEDC2352E65600A1166A /* CountingMazeBuilder.swift in Sources */,
 				6AC6CEC1235201A300A1166A /* EnchantedFactoryTests.swift in Sources */,
 				6AAD7542237ECFAB0048DD90 /* ImageView.swift in Sources */,
@@ -965,6 +975,7 @@
 				6AC6CEDA2352240400A1166A /* StandardMazeBuilderTests.swift in Sources */,
 				8971971F233E0516007E6EDF /* DesignPattern_SwiftTests.swift in Sources */,
 				6A9AA4BC2351FA8E00BB4DBB /* Maze.swift in Sources */,
+				6ACA4B812434206F00D49B7A /* Memento.swift in Sources */,
 				6AC6CEC4235202C100A1166A /* Phone.swift in Sources */,
 				6ACA504F237FD86B00990615 /* WindowSystemFactory.swift in Sources */,
 				6AC6CEE42352EB9F00A1166A /* BenzCarBuilder.swift in Sources */,
@@ -972,6 +983,7 @@
 				6ACC150B23A4B4A0006E6229 /* VisualComponentTests.swift in Sources */,
 				6AAD753E237ECEB10048DD90 /* FirstResponderConvertible.swift in Sources */,
 				6AC6CEED23535F4F00A1166A /* BombedMazeGame.swift in Sources */,
+				6ACA4B83243421BC00D49B7A /* ConstraintSolver.swift in Sources */,
 				6A56DC9723C07C9100E8BCE7 /* FlyweightColor.swift in Sources */,
 				6A56DC9923C0945100E8BCE7 /* FlyweightColorTests.swift in Sources */,
 				6AAD7521237EC4360048DD90 /* SingletonMazeFactoryTests.swift in Sources */,
