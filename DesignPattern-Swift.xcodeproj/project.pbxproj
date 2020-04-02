@@ -11,6 +11,8 @@
 		6A0CAF042430C3890057C01A /* InterpreterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0CAF032430C3890057C01A /* InterpreterTests.swift */; };
 		6A0CAF06243175EF0057C01A /* Iterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0CAF05243175EF0057C01A /* Iterator.swift */; };
 		6A0CAF08243179C90057C01A /* IteratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0CAF07243179C90057C01A /* IteratorTests.swift */; };
+		6A259A9824356AB0004F9EB3 /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A259A9724356AB0004F9EB3 /* Observer.swift */; };
+		6A259A9A243570D3004F9EB3 /* ObserverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A259A99243570D3004F9EB3 /* ObserverTests.swift */; };
 		6A452C7A23C37EF800E6253C /* Graphic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A452C7923C37EF800E6253C /* Graphic.swift */; };
 		6A452C7C23C3821700E6253C /* GraphicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A452C7B23C3821600E6253C /* GraphicTests.swift */; };
 		6A56DC9323C06FA000E8BCE7 /* FlyweightGlyph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A56DC9223C06FA000E8BCE7 /* FlyweightGlyph.swift */; };
@@ -127,6 +129,8 @@
 		6A0CAF032430C3890057C01A /* InterpreterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterpreterTests.swift; sourceTree = "<group>"; };
 		6A0CAF05243175EF0057C01A /* Iterator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Iterator.swift; sourceTree = "<group>"; };
 		6A0CAF07243179C90057C01A /* IteratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IteratorTests.swift; sourceTree = "<group>"; };
+		6A259A9724356AB0004F9EB3 /* Observer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
+		6A259A99243570D3004F9EB3 /* ObserverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserverTests.swift; sourceTree = "<group>"; };
 		6A452C7923C37EF800E6253C /* Graphic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graphic.swift; sourceTree = "<group>"; };
 		6A452C7B23C3821600E6253C /* GraphicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphicTests.swift; sourceTree = "<group>"; };
 		6A56DC9223C06FA000E8BCE7 /* FlyweightGlyph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyweightGlyph.swift; sourceTree = "<group>"; };
@@ -452,6 +456,8 @@
 		6AAD752F237EC5D20048DD90 /* Observer */ = {
 			isa = PBXGroup;
 			children = (
+				6A259A9724356AB0004F9EB3 /* Observer.swift */,
+				6A259A99243570D3004F9EB3 /* ObserverTests.swift */,
 			);
 			path = Observer;
 			sourceTree = "<group>";
@@ -918,6 +924,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6AD899D7238EC02C00395762 /* FloppyDisk.swift in Sources */,
+				6A259A9824356AB0004F9EB3 /* Observer.swift in Sources */,
 				6ACA505C238123DA00990615 /* HybridViewTests.swift in Sources */,
 				6A9AA4B42351FA6B00BB4DBB /* MapSite.swift in Sources */,
 				6AC6CECA235206D700A1166A /* PhoneFactory.swift in Sources */,
@@ -931,6 +938,7 @@
 				6ACA504B237FD47C00990615 /* PMWindowImp.swift in Sources */,
 				6AC6CEFC2354A31A00A1166A /* MazePrototypeFactoryTests.swift in Sources */,
 				6AC6CED82352216400A1166A /* StandardMazeBuilder.swift in Sources */,
+				6A259A9A243570D3004F9EB3 /* ObserverTests.swift in Sources */,
 				6AC6CEEB2353030100A1166A /* MazeGame.swift in Sources */,
 				6AC6CEF5235372D800A1166A /* MegazineMakerTests.swift in Sources */,
 				6AAD7540237ECF060048DD90 /* Control.swift in Sources */,
