@@ -23,6 +23,8 @@
 		6A56DC9923C0945100E8BCE7 /* FlyweightColorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A56DC9823C0945100E8BCE7 /* FlyweightColorTests.swift */; };
 		6A62086F2438388900B4847C /* Strategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A62086E2438388900B4847C /* Strategy.swift */; };
 		6A62087124383FF800B4847C /* StrategyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A62087024383FF800B4847C /* StrategyTests.swift */; };
+		6A6208752438874900B4847C /* TemplateMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6208742438874900B4847C /* TemplateMethod.swift */; };
+		6A6208772438880600B4847C /* TemplateMethodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6208762438880600B4847C /* TemplateMethodTests.swift */; };
 		6A9AA4B02351F9F700BB4DBB /* MazeFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9AA4AF2351F9F700BB4DBB /* MazeFactory.swift */; };
 		6A9AA4B42351FA6B00BB4DBB /* MapSite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9AA4B32351FA6B00BB4DBB /* MapSite.swift */; };
 		6A9AA4B62351FA7300BB4DBB /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9AA4B52351FA7300BB4DBB /* Room.swift */; };
@@ -145,6 +147,8 @@
 		6A56DC9823C0945100E8BCE7 /* FlyweightColorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyweightColorTests.swift; sourceTree = "<group>"; };
 		6A62086E2438388900B4847C /* Strategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strategy.swift; sourceTree = "<group>"; };
 		6A62087024383FF800B4847C /* StrategyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrategyTests.swift; sourceTree = "<group>"; };
+		6A6208742438874900B4847C /* TemplateMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateMethod.swift; sourceTree = "<group>"; };
+		6A6208762438880600B4847C /* TemplateMethodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateMethodTests.swift; sourceTree = "<group>"; };
 		6A9AA4AF2351F9F700BB4DBB /* MazeFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MazeFactory.swift; sourceTree = "<group>"; };
 		6A9AA4B32351FA6B00BB4DBB /* MapSite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapSite.swift; sourceTree = "<group>"; };
 		6A9AA4B52351FA7300BB4DBB /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
@@ -460,6 +464,8 @@
 		6AAD752D237EC5AF0048DD90 /* Template Method */ = {
 			isa = PBXGroup;
 			children = (
+				6A6208742438874900B4847C /* TemplateMethod.swift */,
+				6A6208762438880600B4847C /* TemplateMethodTests.swift */,
 			);
 			path = "Template Method";
 			sourceTree = "<group>";
@@ -1019,12 +1025,14 @@
 				6A56DC9923C0945100E8BCE7 /* FlyweightColorTests.swift in Sources */,
 				6AAD7521237EC4360048DD90 /* SingletonMazeFactoryTests.swift in Sources */,
 				6AD899DF238EC38D00395762 /* TreeNodeTests.swift in Sources */,
+				6A6208752438874900B4847C /* TemplateMethod.swift in Sources */,
 				6A0CAF022430A7920057C01A /* Interpreter.swift in Sources */,
 				6AC6CEEF23535FE700A1166A /* BombedMazeGameTests.swift in Sources */,
 				6AC6CEF123536F6400A1166A /* BookMaker.swift in Sources */,
 				6ACBC10923A672450076A87F /* DomainTests.swift in Sources */,
 				6A4374A72436CE7F000FDAA7 /* StateTests.swift in Sources */,
 				6AC6CEDE2352E6FA00A1166A /* CountingMazeBuilderTests.swift in Sources */,
+				6A6208772438880600B4847C /* TemplateMethodTests.swift in Sources */,
 				6AC6CEE02352E98800A1166A /* CarBuilder.swift in Sources */,
 				6ACBC10723A66E970076A87F /* Domain.swift in Sources */,
 				6AC6CECE235207F600A1166A /* PhoneShop.swift in Sources */,
