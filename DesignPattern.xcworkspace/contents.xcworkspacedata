@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:DesignPattern-ObjC/DesignPattern-ObjC.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:DesignPattern-Swift/DesignPattern-Swift.xcodeproj">
    </FileRef>
 </Workspace>
