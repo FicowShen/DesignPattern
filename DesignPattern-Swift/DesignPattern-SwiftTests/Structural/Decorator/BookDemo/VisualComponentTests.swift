@@ -1,5 +1,6 @@
 import XCTest
 import UIKit
+@testable import DesignPattern_Swift
 
 class VisualComponentTests: XCTestCase {
 

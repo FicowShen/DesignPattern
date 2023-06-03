@@ -1,4 +1,5 @@
 import XCTest
+@testable import DesignPattern_Swift
 
 class StrategyTests: XCTestCase {
     private func checkComposition(compositor: Compositor,

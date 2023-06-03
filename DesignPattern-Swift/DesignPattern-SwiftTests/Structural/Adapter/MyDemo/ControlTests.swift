@@ -1,5 +1,7 @@
 import XCTest
 import struct UIKit.CGRect
+@testable import DesignPattern_Swift
+
 
 class ControlTests: XCTestCase {
     

@@ -1,4 +1,5 @@
 import XCTest
+@testable import DesignPattern_Swift
 
 class MediatorTests: XCTestCase {
     func testExample() {

@@ -20,6 +20,20 @@
                ReferencedContainer = "container:DesignPattern-Swift.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "NO"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "89719724233E0516007E6EDF"
+               BuildableName = "DesignPattern-SwiftUITests.xctest"
+               BlueprintName = "DesignPattern-SwiftUITests"
+               ReferencedContainer = "container:DesignPattern-Swift.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -35,16 +49,6 @@
                BlueprintIdentifier = "89719719233E0515007E6EDF"
                BuildableName = "DesignPattern-SwiftTests.xctest"
                BlueprintName = "DesignPattern-SwiftTests"
-               ReferencedContainer = "container:DesignPattern-Swift.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "89719724233E0516007E6EDF"
-               BuildableName = "DesignPattern-SwiftUITests.xctest"
-               BlueprintName = "DesignPattern-SwiftUITests"
                ReferencedContainer = "container:DesignPattern-Swift.xcodeproj">
             </BuildableReference>
          </TestableReference>

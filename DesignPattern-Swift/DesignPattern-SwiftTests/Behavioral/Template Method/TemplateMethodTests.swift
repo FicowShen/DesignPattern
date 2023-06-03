@@ -1,4 +1,5 @@
 import XCTest
+@testable import DesignPattern_Swift
 
 final class TemplateMethodTests: XCTestCase {
     func testExample() {
